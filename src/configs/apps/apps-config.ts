@@ -70,12 +70,12 @@ const viewSource = createAppConfig({
 });
 
 const vercel = createAppConfig({
-  title: `Powered by Vercel`,
+  title: `Powered by Portal`,
   resizable: true,
 
   shouldOpenWindow: false,
   externalAction: () =>
-    window.open('https://vercel.com/?utm_source=purus-projects&utm_campaign=oss', '_blank'),
+    window.open('https://prtl.cc', '_blank'),
 
   dockBreaksBefore: true,
 });

@@ -14,7 +14,7 @@ export const openApps = writable<Record<AppID, boolean>>({
   calendar: false,
   // 'system-preferences': false,
 
-  //'purus-twitter': false,
+  'purus-twitter': false,
   'view-source': true,
 
   vercel: true,
@@ -57,7 +57,7 @@ export const appsInFullscreen = writable<Record<AppID, boolean>>({
   calendar: false,
   // 'system-preferences': false,
 
-  //'purus-twitter': false,
+  'purus-twitter': false,
   'view-source': false,
 
   vercel: false,

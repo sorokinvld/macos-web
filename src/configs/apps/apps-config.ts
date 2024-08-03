@@ -66,16 +66,16 @@ const viewSource = createAppConfig({
   resizable: true,
 
   shouldOpenWindow: false,
-  externalAction: () => window.open('https://github.com/puruvj/macos-web', '_blank'),
+  externalAction: () => window.open('https://prtl.cc', '_blank'),
 });
 
 const vercel = createAppConfig({
-  title: `Powered by Vercel`,
+  title: `Powered by Portal`,
   resizable: true,
 
   shouldOpenWindow: false,
   externalAction: () =>
-    window.open('https://vercel.com/?utm_source=purus-projects&utm_campaign=oss', '_blank'),
+    window.open('https://prtl.cc', '_blank'),
 
   dockBreaksBefore: true,
 });

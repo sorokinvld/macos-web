@@ -92,12 +92,9 @@ export const appsConfig = {
   calendar,
   vscode,
   appstore,
-  // safari,
-
-  // 'system-preferences': systemPreferences,
-
+  safari,
+  'system-preferences': systemPreferences,
   //'purus-twitter': purusTwitter,
   'view-source': viewSource,
-
   vercel,
 };

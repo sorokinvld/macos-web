@@ -52,7 +52,7 @@ const systemPreferences = createAppConfig({
 });
 
 const purusTwitter = createAppConfig({
-  title: `About the Developer`,
+  title: `Agents`,
   resizable: true,
 
   dockBreaksBefore: true,

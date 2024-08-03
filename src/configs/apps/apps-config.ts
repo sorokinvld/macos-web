@@ -66,7 +66,7 @@ const viewSource = createAppConfig({
   resizable: true,
 
   shouldOpenWindow: false,
-  externalAction: () => window.open('https://prtl.cc', '_blank'),
+  externalAction: () => window.open('https://www.prtl.cc', '_blank'),
 });
 
 const vercel = createAppConfig({
@@ -75,7 +75,7 @@ const vercel = createAppConfig({
 
   shouldOpenWindow: false,
   externalAction: () =>
-    window.open('https://prtl.cc', '_blank'),
+    window.open('https://www.prtl.cc', '_blank'),
 
   dockBreaksBefore: true,
 });

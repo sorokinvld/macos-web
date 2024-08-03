@@ -62,11 +62,11 @@ const systemPreferences = createAppConfig({
 //});
 
 const viewSource = createAppConfig({
-  title: `View Source`,
+  title: `View agents`,
   resizable: true,
 
   shouldOpenWindow: false,
-  externalAction: () => window.open('https://www.prtl.cc', '_blank'),
+  externalAction: () => window.open('https://ag.prtl.cc', '_blank'),
 });
 
 const vercel = createAppConfig({
